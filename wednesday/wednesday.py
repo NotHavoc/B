@@ -19,7 +19,8 @@ class Wednesday:
         #reads server messages, if it is the first message of wednesday posts the notification
         channel = message.channel
         author = message.author
-        weekday = datetime.now().isoweekday()
+       # weekday = datetime.now().isoweekday()
+        weekday = 4
 
         if message.server is None:
             return
