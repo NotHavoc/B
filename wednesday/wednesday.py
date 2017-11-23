@@ -1,4 +1,5 @@
 import discord
+import time
 import datetime
 import request
 from discord.ext import commands
