@@ -1,12 +1,5 @@
 import discord
 import datetime
-import os
-import asyncio
-import re
-from discord.ext import commands
-from cogs.utils import checks
-from cogs.utils.dataIO import dataIO
-from cogs.utils.chat_formatting import box, pagify, escape_mass_mentions
 from random import choice
 
 class Wednesday:
@@ -44,5 +37,5 @@ class Wednesday:
         await self.bot.say("It is Wednesday my dudes")
 
     def setup(bot):
-        bot.add_cog(wednesday(bot))
+        bot.add_cog(Wednesday(bot))
 
