@@ -1,6 +1,6 @@
 import discord
 import time
-import datetime
+#import datetime
 import request
 from discord.ext import commands
 from cogs.utils import checks
