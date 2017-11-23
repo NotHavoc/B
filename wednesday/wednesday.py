@@ -35,8 +35,9 @@ class Wednesday:
 
         if tiggered == true
             return
-       
+      
         await self.bot.say("It is Wednesday my dudes")
+        triggered = true
 
     def setup(bot):
         bot.add_cog(Wednesday(bot))
