@@ -9,7 +9,7 @@ class Wednesday:
 
     def __init__(self, bot):
         self.bot = bot
-        self.tiggered = false 
+        #self.tiggered = false 
         
     async def on_message(self, message):
         
