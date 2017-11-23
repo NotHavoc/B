@@ -27,13 +27,13 @@ class Wednesday:
 
         if author == self.bot.user:
             return
-
+        """
         if not self.bot.user_allowed(message):
             return
 
         if self.is_command(message):
             return
-
+        """
         if weekday != 4:
             self.tiggered = false
             return
