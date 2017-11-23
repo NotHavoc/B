@@ -20,7 +20,7 @@ class Wednesday:
         channel = message.channel
         author = message.author
        # weekday = datetime.now().isoweekday()
-        weekday = 4
+        weekday = 3
 
         if message.server is None:
             return
@@ -34,7 +34,7 @@ class Wednesday:
         if self.is_command(message):
             return
         """
-        if weekday != 4:
+        if weekday != 3:
             self.tiggered = false
             return
 
