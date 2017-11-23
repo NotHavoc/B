@@ -33,11 +33,11 @@ class Wednesday:
         if self.is_command(message):
             return
 
-        if weekday != 4
+        if weekday != 4:
             self.tiggered = false
             return
 
-        if tiggered == true
+        if tiggered == true:
             return
       
         await self.bot.say("It is Wednesday my dudes")
