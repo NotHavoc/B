@@ -1,3 +1,4 @@
+import os
 import discord
 import request
 from discord.ext import commands
