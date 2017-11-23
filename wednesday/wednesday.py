@@ -1,6 +1,7 @@
 import discord
 import datetime
-from random import choice
+import request
+from discord.ext import commands
 
 class Wednesday:
     """Cog to notify the server when it is wednesday"""
