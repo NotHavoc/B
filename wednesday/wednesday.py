@@ -13,7 +13,7 @@ class Wednesday:
 
     def __init__(self, bot):
         self.bot = bot
-        self.tiggered = false 
+        self.triggered = false 
         
     async def on_message(self, message):
         #reads server messages, if it is the first message of wednesday posts the notification
@@ -34,11 +34,11 @@ class Wednesday:
         if self.is_command(message):
             return
         """
-        if weekday != 3:
+        if (weekday != 3):
             self.tiggered = false
             return
 
-        if tiggered == true:
+        if (triggered == true):
             return
       
         await self.bot.say("It is Wednesday my dudes")
