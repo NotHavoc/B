@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class Mydudes:
+class Mycog:
     """My custom cog that does stuff!"""
 
     def __init__(self, bot):
@@ -12,7 +12,7 @@ class Mydudes:
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("It is Wednesday my dudes.")
+        await self.bot.say("I can do stuff!")
 
 def setup(bot):
-    bot.add_cog(MYdudes(bot))
+    bot.add_cog(Mycog(bot))
